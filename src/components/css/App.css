@@ -1,0 +1,287 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background: #fffef5;
+  font-family: 'Cormorant Garamond', 'Georgia', serif;
+
+  color: #000;
+  /* margin: 2rem; */
+}
+
+.container {
+  padding-left: 420px;
+  float: center;
+  margin-top: 200px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo {
+  width: 27px;
+  height: auto;
+}
+
+/* h1 {
+  font-weight: 400;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+    font-size: 44px;
+    line-height: 1;
+} */
+
+.network {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.definition {
+  margin-top: 100px;
+  margin-bottom: 4rem;
+  padding-right: 0;
+  font-size: 19.6px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.wallet-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.wallet-btn {
+  background-color: aquamarine;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  box-shadow: 4px 4px 0 #dc143c;
+  cursor: pointer;
+  font-family: 'Georgia', serif;
+  transition: transform 0.1s ease-in-out;
+}
+
+.wallet-btn:hover {
+  transform: translateY(-2px);
+}
+
+.unlock-msg {
+  font-size: 1rem;
+}
+
+body {
+  font-family: Georgia, serif;
+  background-color: #fffef5;
+  color: #111;
+  padding: 2rem;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.logo {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+ 
+}
+
+.header-h1 {
+  font-size: 2rem;
+  font-weight: normal;
+  margin: 0;
+}
+
+.network {
+  font-size: 1rem;
+  font-weight: normal;
+  color: #111;
+}
+
+.wallet-info {
+  text-align: right;
+  margin-left: 100px;
+}
+
+.address {
+  display: block;
+  font-size: 19px;
+}
+
+.disconnect {
+  color: #111;
+  background-color: transparent;
+  border: none;
+  font-size:19px;
+   cursor: pointer;
+}
+.disconnect:hover {
+  color: aquamarine;
+}
+
+.definition {
+  margin: 1rem 0;
+  margin-top: 50px;
+}
+
+
+.highlight {
+  background-color: aquamarine;
+  padding: 2px 6px;
+  font-style: italic;
+  font-size: 30px;
+}
+
+.token {
+  color: gray;
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+.balance {
+  margin: 0.5rem 0;
+  font-size: 19px;
+}
+
+.recipients h2 {
+  font-size: 1.3rem;
+  font-style: italic;
+}
+
+.title {
+  font-size: 2rem;
+  margin-top: 3rem;
+}
+
+.address-row, .address-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.summary {
+  margin-top: 1rem;
+}
+
+.summary p {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.3rem 0;
+}
+
+.balance-label {
+  color: #600;
+  font-style: italic;
+}
+
+.remaining-label {
+  color: crimson;
+  font-style: italic;
+}
+
+.remaining {
+  color: crimson;
+}
+
+.button-row {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.disperse-btn {
+  background-color: aquamarine;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-style: italic;
+  box-shadow: 4px 4px #dc143c;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.error-msg {
+  color: crimson;
+  font-style: italic;
+}
+.container {
+  background-color: #fffdf5;
+  padding: 2rem;
+  font-family: serif;
+}
+
+.container h2 {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.containerp {
+  margin-top: 1.4rem;
+  margin-bottom: 1.4rem;
+  font-size: 19.6px;
+}
+
+.address-textarea {
+  background-color: aquamarine;
+  font-family: monospace;
+  font-size: 1rem;
+  padding: 1rem;
+  color: #444;
+  border: none;
+  border-bottom: 2px solid black;
+  width: 100%;
+  resize: vertical;
+}
+.connect-wallet-btn{
+  background-color: transparent;
+  border: none;
+   cursor: pointer;
+}
+.connect-wallet-btn:hover {
+  color: aquamarine;
+}
+
+.network{
+  background-color:#dc143c;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-style: italic;
+  box-shadow: 4px 4px aquamarine ;
+  cursor: pointer;
+  opacity: 0.8;
+  color: #111;
+}
+
+.network-dropdown{
+  background-color:#fffdf5;
+  border: none;
+  font-size: 1rem;
+  font-style: italic;
+  cursor: pointer;
+  opacity: 0.8;
+  width: 77px;
+
+}
+
+
+

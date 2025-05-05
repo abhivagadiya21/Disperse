@@ -1,0 +1,180 @@
+.container {
+    /* padding: 40px; */
+    margin: auto;
+    max-width: 650px;
+    margin-top: 55PX;
+  }
+  .send{
+    font-size: 30px;
+    font-weight:100;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+  }
+  .token{
+    font-size: 30px;
+    font-weight:100;
+    font-style: italic;
+  }
+  
+  .logo {
+    width: 40px;
+    /* height: 40px; */
+  }
+  
+  h1 {
+    margin: 0;
+    font-family: et-book, Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+    font-weight: 200;
+    font-size: 44.0px;
+  }
+  
+  .wallet-info {
+    display: flex;
+    align-items: center;
+    /* gap: 10px; */
+  }
+  
+  .connect-wallet-btn,
+  .disconnect {
+    /* padding: 6px 12px; */
+    font-size: 0.9rem;
+  }
+  
+  .send-section {
+    margin-top: 50px;
+    font-size: 30px;
+  }
+  .recipients{
+    font-style: italic;
+    font-weight: 400;
+    margin-top: 80px;
+    margin-bottom: 1.4rem;
+    font-size: 30px;
+    line-height: 1;
+  }
+
+  .p1{
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+  
+  .address-box {
+    display: block;
+    border: none;
+    border-bottom: 2px #111111 solid;
+    background: #7fffd4;
+    padding: .7rem;
+    font-size: 19px;
+    width: 100%;
+    position: relative;
+    height: 8.4rem;
+    resize: none;
+    margin-bottom: 1.4rem;
+  }
+  
+  .confirm-section {
+    margin-top: 30px;
+  }
+  
+  .address-row,
+  .address-item {
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 8px 0;
+    font-size: 0.95rem;
+  }
+  
+  .summary {
+    margin-top: 20px;
+    font-size: 0.95rem;
+  }
+  
+  .disperse-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .disperse-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  /*  Media Query for Tablets */
+  @media (max-width: 768px) {
+    .container {
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    .address-row,
+    .address-item {
+      font-size: 0.9rem;
+    }
+  
+    .wallet-info {
+      /* flex-direction: column;
+      align-items: flex-start; */
+      /* gap: 5px; */
+      margin-left: 80px;
+    }
+  }
+  
+  /*  Media Query for Mobile */
+  @media (max-width: 480px) {
+    .header {
+      /* flex-direction: column; */
+      align-items: flex-start;
+    }
+    .network-dropdown-token{
+      width: 85%;
+      background-color: transparent;
+      border: none;
+    }
+  
+    .logo {
+      width: 30px;
+      /* height: 30px; */
+      margin-right: 200px;
+    }
+  
+    h1 {
+      font-size: 1.25rem;
+    }
+  
+    .network-dropdown {
+      /* margin-top: 5px; */
+      width: 50%;
+    }
+  
+    .address-box {
+      font-size: 0.9rem;
+    }
+  
+    .disperse-btn {
+      width: 100%;
+      font-size: 0.95rem;
+    }
+    .wallet-info {
+       
+        margin-left: 0;
+      }
+      .definition{
+        margin-top: 20px;
+      }
+  }
+  
